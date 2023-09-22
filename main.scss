@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5612f0;
+}
+.wrapper{
+    width: 605px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+header{
+    font-size: 2.9rem;
+    font-weight: 600;
+    text-align: center;
+}
+.content{
+    margin: 35px 0;
+}
+.qoute-area{
+    display: flex;
+    justify-content: center;
+}
+.qoute-area i{
+    font-size: 0.9rem;
+}
+.qoute-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.qoute-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.qoute{
+    font-size: 1.3rem;
+    text-align: center;
+    word-break: break-all;
+}
+.author{
+    display: flex;
+    font-size: 1rem;
+    font-style: italic;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.author span:first-child{
+    margin: 0px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.features ul{
+    display: flex;
+
+}
+.features ul li{
+    list-style: none;
+    margin: 0px 5px;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5612f0;
+    border: 2px solid #5612f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    color: #fff;
+    background-color: #5612f0;
+}
+.features button{
+    border: none;
+    outline: none;
+    background-color: #5612f0;
+    padding: 13px 22px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
