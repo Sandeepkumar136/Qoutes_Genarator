@@ -1,3 +1,4 @@
+
 const text=document.getElementById("qoute"),
 author =document.querySelector(".name"),
 qouteBtn = document.querySelector("button"),

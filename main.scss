@@ -5,14 +5,13 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 // navigation
 body{
     background-color: #f9f9f9;
     color: #000;
-}
-.dark-mode{
-    background-color: #000331;
-    color: #ffffff;
 }
 // Start Navbar
 nav{
@@ -283,4 +282,44 @@ button.loading{
   font-size: 1.5rem;
   color: #94bbff;
   margin-right: 0.5rem;
+}
+
+
+// sec menu
+#head-cc{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  margin: 10px 0;
+  gap: 0.5rem;
+}
+.fa-pen-nib{
+  font-size: 1.5rem;
+  color: brown;
+}
+.cc-container{
+  display: flex;
+  justify-content: start;
+  margin: 4px;
+  margin-right: 4px;
+  border-radius: 4px;
+  gap: 0.5rem;
+  background-color: #c1c1c1;
+  padding: 20px;
+}
+.text-cc{
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+.author-cc{
+  font-style: italic;
+  font-family: monospace;
+}
+@media only screen and (max-width: 600px) {
+  .cc-container{
+    flex-direction: column;
+  }
+  
 }
