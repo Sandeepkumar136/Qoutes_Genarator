@@ -6,9 +6,19 @@
   font-family: "poppins", sans-serif;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   background-color: #f9f9f9;
   color: #000;
+  overflow-x: hidden;
+}
+
+.dark-mode {
+  background-color: #000331;
+  color: #ffffff;
 }
 
 .container {
@@ -16,14 +26,37 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #5612f0;
+  animation: BgColor 30s ease infinite;
+  margin: 4px;
+  border-radius: 10px;
 }
 
+@keyframes BgColor {
+  0% {
+    background: linear-gradient(45deg, #ff00c8, #005eff);
+  }
+  20% {
+    background: linear-gradient(45deg, #d900ff, #ff0062);
+  }
+  40% {
+    background: linear-gradient(45deg, #d900ff, #005eff);
+  }
+  60% {
+    background: linear-gradient(45deg, #ff00c8, #005eff);
+  }
+  80% {
+    background: linear-gradient(45deg, #d900ff, #ff0062);
+  }
+  100% {
+    background: linear-gradient(45deg, #ff00c8, #005eff);
+  }
+}
 .wrapper {
   width: 605px;
   background-color: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
+  box-shadow: 0px 0px 10px 0.1px #222;
 }
 
 header {
