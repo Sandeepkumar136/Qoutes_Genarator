@@ -312,6 +312,14 @@ button.loading {
   margin-right: 0.5rem;
 }
 
+@media only screen and (max-width: 600px) {
+  #footer {
+    display: block;
+  }
+  .footer-a {
+    margin: 10px;
+  }
+}
 #head-cc {
   display: flex;
   justify-content: center;
