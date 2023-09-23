@@ -223,3 +223,64 @@ button.loading{
     font-size: 16px;
   }
 }
+@media only screen and (max-width: 350px) {
+  .wrapper{
+    padding: 10px 10px 15px;
+    width: 250px;
+  }
+}
+#footer{
+  display: flex;
+  justify-content: start;
+  padding: 10px 15px;
+  gap: 2rem;
+  background-color: #005eff;
+  border-radius: 10px;
+  margin: 4px;
+  flex-wrap: wrap;
+}
+.footer-a{
+  padding: 10px 20px;
+  box-shadow: 0px 0px 8px 0.1px #222;
+  border-radius: 8px;
+}
+.footer-navs{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-list{
+  padding: 5px 5px;
+  border-radius: 8px;
+}
+.footer-list:hover{
+  background-color: #5612f0;
+}
+.footer-nav-link{
+  text-decoration: none;
+  color: #fff;
+}
+.fa-instagram{
+  font-size: 1.5rem;
+  background: linear-gradient(45deg, #ff00c8, #4187ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-right: 0.5rem;
+}
+.fa-facebook-f{
+  font-size: 1.5rem;
+  color: #94bbff;
+  margin-right: 0.5rem;
+}
+.fa-github{
+  font-size: 1.5rem;
+  color: #0b0b0b;
+  margin-right: 0.5rem;
+}
+.fa-telegram{
+  font-size: 1.5rem;
+  color: #94bbff;
+  margin-right: 0.5rem;
+}
